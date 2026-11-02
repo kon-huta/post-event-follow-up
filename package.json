@@ -1,0 +1,13 @@
+{
+  "name": "post-event-follow-up",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "A local portfolio reconstruction of a human-reviewed post-event follow-up pipeline.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "demo": "node src/demo.js",
+    "test": "node --test",
+    "check:public": "node scripts/check-public.js"
+  }
+}

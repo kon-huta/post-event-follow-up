@@ -1,0 +1,180 @@
+{
+  "event": {
+    "id": "demo-dinner-001",
+    "venue": "Juniper House",
+    "kind": "dinner",
+    "end": "2026-10-30T04:00:00Z",
+    "timeZone": "America/Los_Angeles",
+    "notesAvailable": true,
+    "cancelled": false,
+    "date": "2026-10-29",
+    "city": "Harbor City",
+    "title": "Product Leaders Dinner",
+    "calendarStatus": "confirmed"
+  },
+  "hosts": [
+    {
+      "name": "Alex",
+      "email": "alex@example.com",
+      "onSiteVerified": true,
+      "aliasVerified": true
+    }
+  ],
+  "contacts": [
+    {
+      "id": "guest-01",
+      "name": "Maya",
+      "email": "maya@example.com",
+      "activeNeed": true,
+      "evidence": [
+        {
+          "source": "slack",
+          "reference": "demo-attendance-01",
+          "outcome": "attended"
+        },
+        {
+          "source": "meeting_notes",
+          "reference": "demo-intro-01",
+          "outcome": "attended"
+        }
+      ],
+      "labels": [
+        "Registered"
+      ],
+      "contextEvidence": [
+        {
+          "text": "It was great discussing how teams approach customer onboarding.",
+          "reference": "demo-context-guest-01",
+          "speakerId": "guest-01",
+          "category": "professional",
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "guest-02",
+      "name": "Jordan",
+      "email": "jordan@example.com",
+      "customer": true,
+      "returningWithin12Months": true,
+      "evidence": [
+        {
+          "source": "meeting_notes",
+          "reference": "demo-intro-02",
+          "outcome": "attended"
+        }
+      ],
+      "labels": [
+        "Registered"
+      ],
+      "contextEvidence": [
+        {
+          "text": "Thanks for sharing what your team learned from its recent launch.",
+          "reference": "demo-context-guest-02",
+          "speakerId": "guest-02",
+          "category": "professional",
+          "approved": true
+        }
+      ]
+    },
+    {
+      "id": "guest-03",
+      "name": "Sam",
+      "email": "sam@example.com",
+      "relationship": "between_roles",
+      "evidence": [
+        {
+          "source": "slack",
+          "reference": "demo-attendance-03",
+          "outcome": "attended"
+        }
+      ],
+      "labels": [
+        "Registered"
+      ]
+    },
+    {
+      "id": "guest-04",
+      "name": "Casey",
+      "email": "casey@example.com",
+      "evidence": [
+        {
+          "source": "slack",
+          "reference": "demo-attendance-04",
+          "outcome": "no_show"
+        }
+      ],
+      "labels": [
+        "Registered"
+      ]
+    },
+    {
+      "id": "guest-05",
+      "name": "Riley",
+      "email": "riley@example.com",
+      "evidence": [
+        {
+          "source": "slack",
+          "reference": "demo-attendance-05",
+          "outcome": "no_show"
+        },
+        {
+          "source": "meeting_notes",
+          "reference": "demo-intro-05",
+          "outcome": "attended"
+        }
+      ],
+      "labels": [
+        "Registered"
+      ]
+    },
+    {
+      "id": "guest-06",
+      "name": "Taylor",
+      "email": "taylor@example.com",
+      "seatConfirmed": false,
+      "evidence": [],
+      "labels": [
+        "Waitlisted"
+      ]
+    },
+    {
+      "id": "guest-07",
+      "name": "Morgan",
+      "email": "morgan@example.com",
+      "walkIn": true,
+      "identityConfirmed": false,
+      "evidence": [
+        {
+          "source": "meeting_notes",
+          "reference": "demo-intro-07",
+          "outcome": "attended"
+        }
+      ],
+      "labels": []
+    },
+    {
+      "id": "guest-08",
+      "name": "Jamie",
+      "email": "jamie@example.com",
+      "optedOut": true,
+      "evidence": [
+        {
+          "source": "slack",
+          "reference": "demo-attendance-08",
+          "outcome": "attended"
+        }
+      ],
+      "labels": [
+        "Registered"
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "demo-channel-01",
+      "name": "event-harbor-city-10-29-26",
+      "archived": false
+    }
+  ]
+}
